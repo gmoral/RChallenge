@@ -17,11 +17,11 @@ pod 'Nimble'
 ## Architecture
 
 <p align="center">
-    <img src='https://github.com/gmoral/RChallenge/blob/master/rxswift.png' width="200" height="300">
+    <img src='https://github.com/gmoral/RChallenge/blob/master/rxswift.png' width="300" height="300">
 </p>
 
 ## Demo
 
 <p align="center">
-<img src="https://github.com/gmoral/RChallenge/blob/master/demo.gif" width="200" height="300">
+<img src="https://github.com/gmoral/RChallenge/blob/master/demo.gif" width="200">
 </p>
