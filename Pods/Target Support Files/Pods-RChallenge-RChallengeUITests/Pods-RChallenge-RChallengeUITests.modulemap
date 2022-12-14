@@ -1,0 +1,6 @@
+framework module Pods_RChallenge_RChallengeUITests {
+  umbrella header "Pods-RChallenge-RChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
