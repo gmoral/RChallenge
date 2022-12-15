@@ -14,7 +14,7 @@ pod 'Quick'
 pod 'Nimble'
 
 
-## Architecture
+## Architecture Using Redux
 
 <p align="center">
     <img src='https://github.com/gmoral/RChallenge/blob/master/rxswift.png' width="300" height="300">
