@@ -13,11 +13,17 @@ class CoreDataManager : CoreDataFeed {
     private let persistentContainer : NSPersistentContainer
     private let context : NSManagedObjectContext
     
-    init() {
+    init(inMemory: Bool = false) {
         persistentContainer = NSPersistentContainer(name: "db")
-        persistentContainer.loadPersistentStores { (description, error) in
-            if let error = error {
-                fatalError("Failure to initial Core Data \(error)")
+        
+        if inMemory {
+            persistentContainer.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
+        } else {
+            
+            persistentContainer.loadPersistentStores { (description, error) in
+                if let error = error {
+                    fatalError("Failure to initial Core Data \(error)")
+                }
             }
         }
         
