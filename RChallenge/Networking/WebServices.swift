@@ -15,7 +15,7 @@ enum NetworkError: Error {
 
 class WebServices : API {
     
-    func getRestaurant(completion: @escaping (Result<FeedModel?, NetworkError>) -> Void) {
+    func getRestaurant(completion: @escaping (Result<RestaurantResponse?, NetworkError>) -> Void) {
         
         guard let restaurantURL = URL(string: Constants.Urls.allRestaurant()) else {
             completion(.failure(.badURL))
@@ -29,10 +29,10 @@ class WebServices : API {
                 return
             }
             
-            let feed = try? JSONDecoder().decode(FeedModel.self, from: data)
+            let response = try? JSONDecoder().decode(RestaurantResponse.self, from: data)
             
-            if let feed = feed {
-                completion(.success(feed))
+            if let response = response {
+                completion(.success(response))
             } else {
                 completion(.failure(.decodingError))
             }

@@ -11,6 +11,13 @@
 		9E50089B02CDC64535A0A407 /* Pods_RChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24C8EB1255295E36EADEE4F /* Pods_RChallenge.framework */; };
 		B3472722294A2F3700DB9C9C /* CoreDataFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3472721294A2F3700DB9C9C /* CoreDataFeed.swift */; };
 		B347273A294A35B300DB9C9C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3472739294A35B300DB9C9C /* API.swift */; };
+		B3489D97295DE5C900A0DFFA /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3489D96295DE5C900A0DFFA /* Feed.swift */; };
+		B3489D99295DE5E100A0DFFA /* AggregateRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3489D98295DE5E100A0DFFA /* AggregateRatings.swift */; };
+		B3489D9B295DE5F500A0DFFA /* Thefork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3489D9A295DE5F500A0DFFA /* Thefork.swift */; };
+		B3489D9D295DE60900A0DFFA /* Tripadvisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3489D9C295DE60900A0DFFA /* Tripadvisor.swift */; };
+		B3489D9F295DE61C00A0DFFA /* BestOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3489D9E295DE61C00A0DFFA /* BestOffer.swift */; };
+		B3489DA1295DE63000A0DFFA /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3489DA0295DE63000A0DFFA /* Address.swift */; };
+		B3489DA3295DE64300A0DFFA /* MainPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3489DA2295DE64300A0DFFA /* MainPhoto.swift */; };
 		B35EA061294A3F6A00C34CDC /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B35EA060294A3F6A00C34CDC /* SDWebImageSwiftUI */; };
 		B3B5D4312949FC1200FCB485 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B5D4302949FC1200FCB485 /* Store.swift */; };
 		B3B5D4332949FD7400FCB485 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B5D4322949FD7400FCB485 /* AppReducer.swift */; };
@@ -27,7 +34,7 @@
 		B3EABB4E2948EC5C008A2500 /* RChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB4D2948EC5C008A2500 /* RChallengeUITestsLaunchTests.swift */; };
 		B3EABB5D2948EC7A008A2500 /* db.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB5B2948EC7A008A2500 /* db.xcdatamodeld */; };
 		B3EABB662948EE06008A2500 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB652948EE06008A2500 /* WebServices.swift */; };
-		B3EABB682948EE17008A2500 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB672948EE17008A2500 /* FeedModel.swift */; };
+		B3EABB682948EE17008A2500 /* RestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB672948EE17008A2500 /* RestaurantResponse.swift */; };
 		B3EABB6A2948EF88008A2500 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB692948EF88008A2500 /* Constants.swift */; };
 		B3EABB6D2948F02E008A2500 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB6B2948F02E008A2500 /* View+Extensions.swift */; };
 		B3EABB6E2948F02E008A2500 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EABB6C2948F02E008A2500 /* String+Extensions.swift */; };
@@ -62,6 +69,13 @@
 		B24C8EB1255295E36EADEE4F /* Pods_RChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3472721294A2F3700DB9C9C /* CoreDataFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeed.swift; sourceTree = "<group>"; };
 		B3472739294A35B300DB9C9C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B3489D96295DE5C900A0DFFA /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B3489D98295DE5E100A0DFFA /* AggregateRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateRatings.swift; sourceTree = "<group>"; };
+		B3489D9A295DE5F500A0DFFA /* Thefork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thefork.swift; sourceTree = "<group>"; };
+		B3489D9C295DE60900A0DFFA /* Tripadvisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripadvisor.swift; sourceTree = "<group>"; };
+		B3489D9E295DE61C00A0DFFA /* BestOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestOffer.swift; sourceTree = "<group>"; };
+		B3489DA0295DE63000A0DFFA /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		B3489DA2295DE64300A0DFFA /* MainPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPhoto.swift; sourceTree = "<group>"; };
 		B3B5D4302949FC1200FCB485 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		B3B5D4322949FD7400FCB485 /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		B3B5D4342949FD9400FCB485 /* FeedReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedReducer.swift; sourceTree = "<group>"; };
@@ -80,7 +94,7 @@
 		B3EABB4D2948EC5C008A2500 /* RChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B3EABB5C2948EC7A008A2500 /* db.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = db.xcdatamodel; sourceTree = "<group>"; };
 		B3EABB652948EE06008A2500 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
-		B3EABB672948EE17008A2500 /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		B3EABB672948EE17008A2500 /* RestaurantResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantResponse.swift; sourceTree = "<group>"; };
 		B3EABB692948EF88008A2500 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B3EABB6B2948F02E008A2500 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		B3EABB6C2948F02E008A2500 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -142,6 +156,21 @@
 				8EB0DEBE9C2680AB4EACCE58 /* Pods_RChallengeTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3489D95295DE5B500A0DFFA /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B3EABB672948EE17008A2500 /* RestaurantResponse.swift */,
+				B3489D96295DE5C900A0DFFA /* Feed.swift */,
+				B3489D98295DE5E100A0DFFA /* AggregateRatings.swift */,
+				B3489D9A295DE5F500A0DFFA /* Thefork.swift */,
+				B3489D9C295DE60900A0DFFA /* Tripadvisor.swift */,
+				B3489D9E295DE61C00A0DFFA /* BestOffer.swift */,
+				B3489DA0295DE63000A0DFFA /* Address.swift */,
+				B3489DA2295DE64300A0DFFA /* MainPhoto.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 		B3B5D42D2949FBEA00FCB485 /* Middlewares */ = {
@@ -257,7 +286,7 @@
 		B3EABB5F2948ED42008A2500 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B3EABB672948EE17008A2500 /* FeedModel.swift */,
+				B3489D95295DE5B500A0DFFA /* Feed */,
 				B3B5D43A294A0DC500FCB485 /* RestaurantViewModel.swift */,
 			);
 			path = Model;
@@ -525,24 +554,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3489D9B295DE5F500A0DFFA /* Thefork.swift in Sources */,
 				B3EABB332948EC5C008A2500 /* ContentView.swift in Sources */,
 				B3EABB312948EC5C008A2500 /* RChallengeApp.swift in Sources */,
 				B3B5D437294A000700FCB485 /* FeedMiddleware.swift in Sources */,
+				B3489D9F295DE61C00A0DFFA /* BestOffer.swift in Sources */,
 				B3B5D4332949FD7400FCB485 /* AppReducer.swift in Sources */,
+				B3489DA3295DE64300A0DFFA /* MainPhoto.swift in Sources */,
+				B3489DA1295DE63000A0DFFA /* Address.swift in Sources */,
 				B3B5D439294A0C1700FCB485 /* CoreDataMiddleware.swift in Sources */,
 				B3EABB662948EE06008A2500 /* WebServices.swift in Sources */,
+				B3489D9D295DE60900A0DFFA /* Tripadvisor.swift in Sources */,
 				B3472722294A2F3700DB9C9C /* CoreDataFeed.swift in Sources */,
 				B3EABB722948F0D1008A2500 /* RatingView.swift in Sources */,
 				B3B5D43B294A0DC500FCB485 /* RestaurantViewModel.swift in Sources */,
 				B3EABB6D2948F02E008A2500 /* View+Extensions.swift in Sources */,
 				B3EABB792948F283008A2500 /* CoreDataManager.swift in Sources */,
 				B3B5D4312949FC1200FCB485 /* Store.swift in Sources */,
+				B3489D99295DE5E100A0DFFA /* AggregateRatings.swift in Sources */,
 				B347273A294A35B300DB9C9C /* API.swift in Sources */,
 				B3EABB6E2948F02E008A2500 /* String+Extensions.swift in Sources */,
 				B3EABB5D2948EC7A008A2500 /* db.xcdatamodeld in Sources */,
-				B3EABB682948EE17008A2500 /* FeedModel.swift in Sources */,
+				B3EABB682948EE17008A2500 /* RestaurantResponse.swift in Sources */,
 				B3EABB6A2948EF88008A2500 /* Constants.swift in Sources */,
 				B3B5D4352949FD9400FCB485 /* FeedReducer.swift in Sources */,
+				B3489D97295DE5C900A0DFFA /* Feed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

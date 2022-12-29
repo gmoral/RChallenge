@@ -8,5 +8,5 @@
 import Foundation
 
 protocol API {
-    func getRestaurant(completion: @escaping (Result<FeedModel?, NetworkError>) -> Void)
+    func getRestaurant(completion: @escaping (Result<RestaurantResponse?, NetworkError>) -> Void)
 }

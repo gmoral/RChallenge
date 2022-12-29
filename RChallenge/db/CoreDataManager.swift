@@ -72,12 +72,15 @@ class CoreDataManager : CoreDataFeed {
                 restaurant.name = feed.name
                 restaurant.uuid = feed.uuid
                 restaurant.isFavorite = false
-                restaurant.url = "https://res.cloudinary.com/tf-lab/image/upload/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg"
-                restaurant.priceRange = feed.priceRange
+                restaurant.url = feed.mainPhoto?.url ?? ""
+                restaurant.priceRange = Double(feed.priceRange)
                 restaurant.currenciesAccepted = feed.currenciesAccepted
                 restaurant.servesCuisine = feed.servesCuisine
-                restaurant.rating = 3
-                restaurant.address = "\(feed.address.street), \(feed.address.locality)"
+                restaurant.rating = feed.aggregateRatings?.thefork?.ratingValue ?? 0
+                
+                if let address = feed.address {
+                    restaurant.address = address.street
+                }
             }
         }
         
